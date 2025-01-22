@@ -1,0 +1,22 @@
+.Right {
+    width: 368px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: var(--White, #fff);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px;
+  }
+  
+  @media (max-width: 1040px) and (min-width: 350px) {
+    .Right {
+      width: 100%;
+      height: 453px;
+      align-items: center;
+      padding: 20px;
+    }
+  }
+  

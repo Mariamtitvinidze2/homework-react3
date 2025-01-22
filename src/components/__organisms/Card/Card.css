@@ -1,0 +1,82 @@
+.Card {
+    width: 288px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    /* background: var(
+      --red-95-white,
+      linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%
+      ),
+      #f55
+    ); */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px;
+  }
+  
+  .Icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .Icon > img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  
+  .Icon > p {
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5px;
+  }
+  
+  .Item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .Item > h1 {
+    color: var(--Dark-Navy, #303b59);
+    text-align: right;
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .Item > p {
+    color: var(--Dark-Navy, #303b59);
+    text-align: right;
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;
+    margin-left: 5px;
+  }
+  
+  @media (max-width: 1040px) and (min-width: 350px) {
+    .Card {
+      width: 100%;
+      padding: 15px 30px 30px;
+    }
+  }
+  

@@ -1,0 +1,12 @@
+.Card1 {
+    background: var(
+      --red-95-white,
+      linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(255, 255, 255, 0.95) 100%
+      ),
+      #f55
+    );
+  }
+  

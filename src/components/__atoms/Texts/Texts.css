@@ -1,0 +1,30 @@
+.Texts > h1 {
+    color: var(--White, #fff);
+    text-align: center;
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 11px;
+  }
+  
+  .Texts > p {
+    color: var(--Light-Blue, #cac9ff);
+    text-align: center;
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  @media (max-width: 1040px) and (min-width: 350px) {
+    .Texts > h1 {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+  }
+  

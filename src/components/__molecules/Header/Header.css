@@ -1,0 +1,17 @@
+.Header {
+    color: var(--Light-Blue, #cac9ff);
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  @media (max-width: 1040px) and (min-width: 350px) {
+    .Header {
+      position: absolute;
+      top: 20px;
+    }
+  }
+  

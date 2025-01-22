@@ -1,0 +1,10 @@
+.Summary {
+    color: var(--Dark-Navy, #303b59);
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
